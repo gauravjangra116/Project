@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        td{
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1px solid black">
+        <tr>
+            <td id="You">
+               <center onclick="bg_color()">You</center>
+            </td>
+            <td id="are">
+               <center onmouseover="bg_color_()">are</center>
+            </td>
+            <td id="in">
+               <center onmouseout="bg_color__()">in</center>
+            </td>
+            <td id="Chit">
+               <center ondblclick="bg_color___()">Chitkara</center>
+            </td>
+            <td id="Uni">
+               <center onmouseup="bg_color__()">University</center>
+            </td>
+        </tr>
+        <tr>
+            <td id="your">
+               <center onmousedown="bg_color___()">Your</center>
+            </td>
+            <td colspan="2">
+                <center>Group</center>
+            </td>
+            <td>
+                <center>Is</center>
+            </td>
+            <td>
+                <center style="background-color: aqua;">G28</center>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><button onkeypress="">Click Me</button></td>
+            <td><button onkeydown="">Click Me</button></td>
+            <td><button onkeyup="">Click Me</button></td>
+            <td><button onclick="bcol()" id="butcol">Click Me</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="table_of_2()">Table Of 2</button></td>
+            <td><button onclick="table_of_5()">Table Of 5</button></td>
+            <td colspan="3" rowspan="2"><center><img src="Assignment_image.jpg" height="80px" id="img1"><br><button onclick="document.getElementById('img1').src='download.png'">Click Me</button></center></td>
+        </tr>
+    </table>
+    <script>
+        function table_of_2() {
+
+            for (let i = 0; i < 11; i++) {
+                document.write("2" + "x" + i + "=" + 2 * i + "<br>")
+            }
+        }
+        function table_of_5() {
+
+            for (let i = 0; i < 11; i++) {
+                document.write("5" + "x" + i + "=" + 5 * i + "<br>")
+            }
+        }
+        function bg_color(){
+            document.getElementById("You").style.backgroundColor="red"
+        }
+        function bg_color_(){
+            document.getElementById("are").style.backgroundColor="yellow"
+        }
+        function bg_color__(){
+            document.getElementById("in").style.backgroundColor="green"
+        }
+        function bg_color___(){
+            document.getElementById("Chit").style.backgroundColor="green"
+        }
+        function bg_color__(){
+            document.getElementById("Uni").style.backgroundColor="green"
+        }
+        function bg_color___(){
+            document.getElementById("your").style.backgroundColor="brown"
+        }
+        function bcol(){
+            document.getElementById("butcol").style.backgroundColor="red"
+        }
+    </script>
+</body>
+
+</html>

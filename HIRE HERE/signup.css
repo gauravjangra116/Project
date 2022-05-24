@@ -1,0 +1,86 @@
+body {
+    background-image: url("https://directlinedev.com/media/cases/rooney/header/background_1_zM58lsj.wide.jpeg");
+    background-size: cover;
+}
+.container {
+    background-color: white;
+    opacity: 0.7;
+    height: 700px;
+    width: 600px;
+    transform: translate(550px,100px);
+    border-radius: 10px 10px 10px 10px;
+}
+.heading {
+    font-size: 50px;
+    text-align: center;
+}
+.content {
+    font-size: 20px;
+    margin-left: 10px;
+}
+.name {
+    width: 500px;
+    border-width: 3px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    
+
+}
+.fname {
+    width: 500px;
+    border-width: 3px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    
+
+}
+.year {
+    width: 500px;
+    border-width: 3px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+
+}
+.address {
+    width: 500px;
+    border-width: 3px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    
+}
+.id {
+    width: 500px;
+    border-width: 3px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+
+}
+.text {
+    width: 500px;
+    border-width: 3px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+
+}
+.skills {
+    width: 500px;
+    border-width: 3px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+.button {
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    height: 40px;
+    width: 80px;
+    margin-left: 240px;
+}

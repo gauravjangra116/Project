@@ -1,0 +1,13 @@
+body {
+    background-image: url("https://export-download.canva.com/dZ6Ts/DAE2XgdZ6Ts/15/0/0001-17264733565.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20220124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220124T143356Z&X-Amz-Expires=8875&X-Amz-Signature=f3dc1aafc8614b638c2770cc66b5cbcc5e4898944d36182634d7a084f6c0b60a&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Hire%2520Here.png&response-expires=Mon%2C%2024%20Jan%202022%2017%3A01%3A51%20GMT");
+}
+.site {
+    transform: translate(480px,480px);
+    font-size: 20px;
+}
+.gaurav {
+    transform: translate(960px,200px);
+}
+.ritik {
+    transform: translate(240px,-200px);
+}

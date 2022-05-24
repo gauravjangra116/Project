@@ -1,0 +1,59 @@
+body {
+    background-image: url("https://export-download.canva.com/zn04U/DAE2VTzn04U/19/0/0001-17234661648.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20220124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220124T030019Z&X-Amz-Expires=21342&X-Amz-Signature=963ce990495b17a6dd2452c6bcb51db8c905f77c4910f9b89940b5b646416fb4&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27FAQ.png&response-expires=Mon%2C%2024%20Jan%202022%2008%3A56%3A01%20GMT");
+    width: 1050px;
+}
+.searchheading {
+    transform: translate(500px,200px);
+}
+.searchbar {
+    background-color: rgb(240, 236, 236);
+    border-radius: 20px;
+    width: 500px;
+    height: 30px;
+    transform: translate(380px,210px);
+    border-style: hidden;
+}
+.faq {
+    transform: translate(300px,400px);
+    margin-top: 30px;
+}
+.group1 {
+    display: flex;
+    justify-content: space-around;
+}
+.faq1 {
+    font-size: 30px;
+    background-color: rgb(238, 237, 237);
+    width: 500px;
+    height: 70px;
+    text-align: center;
+    border-radius: 40px;
+}
+.faq2 {
+    font-size: 30px;
+    background-color: rgb(238, 237, 237);
+    width: 500px;
+    height: 70px;
+    text-align: center;
+    border-radius: 40px;
+}
+.group2 {
+    display: flex;
+    justify-content: space-around;
+}
+.faq3 {
+    font-size: 30px;
+    background-color: rgb(238, 237, 237);
+    width: 500px;
+    height: 70px;
+    text-align: center;
+    border-radius: 40px;
+}
+.faq4 {
+    font-size: 30px;
+    background-color: rgb(238, 237, 237);
+    width: 500px;
+    height: 70px;
+    text-align: center;
+    border-radius: 40px;
+}
